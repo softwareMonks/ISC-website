@@ -12,7 +12,7 @@ Design and Create a website that contain the following functionalities:
   - Form Validation:
       - Activity signup form 
       - User signup form
-#Stack
+#Stack Used
   Design: 
       - Figma.
   Development:
