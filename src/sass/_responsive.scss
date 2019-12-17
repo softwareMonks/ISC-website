@@ -14,12 +14,21 @@
         }
     }
 
-   
+    
     footer {
         .copywrite {
         flex-direction: row;
         }
-    
+        
+        .test {
+            flex-direction: row;
+            width: 80%;
+            a {
+
+                margin: 0;
+                flex-basis: 20vw;
+            }
+        }
     }
 }
 @media #{$large-and-up}{
@@ -30,7 +39,10 @@
     }
        
     footer {
-     
+        .test a{
+            display: inline-block;
+            padding-right:1rem ;
+        }
         .social-media  .test {
             flex-direction: row;
         }
