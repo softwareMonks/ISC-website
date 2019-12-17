@@ -1,6 +1,6 @@
-#### Inelectronics Student Club Website
+# Inelectronics Student Club Website
 
-#### Task 
+### Task 
 Design and Create a website that contain the following functionalities:
 1. Login and authentication:
     - Create and account, update account information and login into the website.
@@ -12,15 +12,16 @@ Design and Create a website that contain the following functionalities:
     - Activity sign up form
     - User sign up form
 
-# Stack Used
-Design:
-    Figma
-Development:
-    React
-    Node
-    Express
-    MongoDB
-#### Setup
+### Stack Used
+- Design:
+    - Figma
+- Development:
+    - React
+    - Node
+    - Express
+    - MongoDB
+   
+### Setup
 ```
 git clone https://github.com/softwareMonks/ISC-website
 cd ISC_website
