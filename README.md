@@ -13,13 +13,13 @@ Design and Create a website that contain the following functionalities:
     - User sign up form
 
 ### Stack Used
-Design:
-    Figma
-Development:
-    React
-    Node
-    Express
-    MongoDB
+- Design:
+    - Figma
+- Development:
+    - React
+    - Node
+    - Express
+    - MongoDB
    
 ### Setup
 ```
