@@ -1,0 +1,63 @@
+.section-join-isc {
+    padding-bottom: 6rem ;
+}
+
+.top-form {
+  
+    text-align: right;
+  
+    background-color: $dark-background-color;
+    
+    h5 {
+       
+        margin: 0;
+      
+        text-align: center;
+    }
+
+    a{
+        text-align: right;
+        
+    }
+    p {
+        font-size: 1rem;
+        text-align: left;
+        padding: 2rem;
+    }
+}
+
+.bottom-form {
+    h5 {
+        text-align: center;
+        margin: 0;
+        color: rgba($color:  $dark-background-color, $alpha: 0.6);
+        
+    }
+    a {
+        float: right;
+        padding: 0.5rem 0;
+       
+    }
+    button {
+        background-color: $dark-background-color;
+        width: 40%;
+        border-radius: 2rem ;
+        
+    }
+}
+
+.right-form {
+    text-align: center;
+    h5 {
+        margin: 0;
+        text-align: center;
+        padding: 1rem;
+        color: rgba($color:  $dark-background-color, $alpha: 0.6);
+    }
+    button {
+        background-color: $dark-background-color;
+        margin:1.3rem  0;
+        width: 50%;
+        border-radius: 2rem;
+    }
+}
