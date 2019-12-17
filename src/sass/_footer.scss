@@ -1,30 +1,41 @@
+.section {
+        margin: 0;
+        padding: 0;
+}
+
+   
 .email-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 1rem;
     h2 {
-        font-size: 1.4rem;
-        margin: 2rem;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        line-height: 1.8;
+        margin: 0;
     }
 
     .btns-wrapper {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 70%;
-        margin: 1rem 0 2rem 0;
+        width: 80%;
+        margin: 0;
         
         a {
             color: $text-color;
             background: $dark-background-color;
             padding: 1rem 3rem;
+            margin-top: 1rem;
         }
 
         input {
             background: $text-color;
             margin: 0;
+            
             font-size: 1.2rem;
             padding: 0.2rem 1rem;
             text-align: center;
@@ -92,32 +103,28 @@
 .social-media {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: auto;
 
     h5 {
         padding: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
         margin: 0;
     }
     
-    .test{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: left;
-        height: 60%;
 
-    }
 
     a {
         display: block;
         color: $text-color;
-        font-size: 1.4rem;
-        font-weight: bold;
-        padding-right: 1rem;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
 
         *::before {
-            padding-right: 1rem;
+            padding-right: 0.4rem;
+            font-size: 1.4rem;
         }
 
 
