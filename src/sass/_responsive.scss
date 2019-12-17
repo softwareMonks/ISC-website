@@ -1,0 +1,38 @@
+@media #{$small-and-down}  {
+    .section__activities{  
+        .grid {
+            grid-template-columns: 1fr;
+        }
+
+    }
+
+}
+@media #{$medium-and-up} {
+    .section__activities{  
+        .grid {
+            grid-template-columns: 1fr 1fr ;
+        }
+    }
+
+   
+    footer {
+        .copywrite {
+        flex-direction: row;
+        }
+    
+    }
+}
+@media #{$large-and-up}{
+    .section__activities{  
+        .grid {
+            grid-template-columns: 1fr 1fr 1fr ;
+        }   
+    }
+       
+    footer {
+     
+        .social-media  .test {
+            flex-direction: row;
+        }
+    }
+}

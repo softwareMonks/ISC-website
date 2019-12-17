@@ -1,0 +1,125 @@
+.email-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 1.4rem;
+        margin: 2rem;
+    }
+
+    .btns-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 1rem 0 2rem 0;
+        
+        a {
+            color: $text-color;
+            background: $dark-background-color;
+            padding: 1rem 3rem;
+        }
+
+        input {
+            background: $text-color;
+            margin: 0;
+            font-size: 1.2rem;
+            padding: 0.2rem 1rem;
+            text-align: center;
+            &:focus {
+                text-align: left;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+.footer {
+    background: $dark-background-color;
+    padding: 4rem;
+    .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        margin: 0rem;
+        padding: 1rem;
+        .cell {
+          
+            max-width: 300px;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            padding-left: 1rem;
+            border-left: 3px solid $primary-color ;
+            margin-bottom: 1rem ;
+
+            h5 {
+                line-height: 1.5;
+            }
+
+            a {
+                font-size: 1rem;
+                padding: 0.4rem 0;
+                color: $text-color;
+                font-weight: 500;
+                &:hover {
+                        color: $primary-color;
+                    }
+            }
+          
+        }
+    }
+}
+.copywrite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    span {
+        color: $special-color;
+    }
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+
+    h5 {
+        padding: 1rem;
+        margin: 0;
+    }
+    
+    .test{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        height: 60%;
+
+    }
+
+    a {
+        display: block;
+        color: $text-color;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding-right: 1rem;
+
+        *::before {
+            padding-right: 1rem;
+        }
+
+
+    }
+}

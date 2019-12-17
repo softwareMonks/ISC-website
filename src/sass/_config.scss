@@ -1,0 +1,54 @@
+$primary-color: #0A6ECA;
+$secondary-color: #061E35;
+$text-color: #fff;
+$dark-background-color: #02022F;
+$gray-background-color: #595959;
+$special-color: #0A6ECA;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat',sans-serif;
+
+}
+*::before , *::after{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+a {
+    
+    text-decoration: none;    
+}
+
+ul , ol {
+    list-style: none;
+}
+
+@mixin media-sl {
+    @media only screen and (min-width: 0) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media only screen and (min-width: $medium-screen) {
+        @content;
+    }
+}
+@mixin media-llg {
+   
+    @media only screen and (min-width: $large-screen) {
+        @content;
+    }
+}
+
+
+
+@mixin transition-ease {
+    transition: all 0.2s ease-in-out;
+}
+

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- The official version of materialize.css for testing purposes -->
+  <!-- <link type="text/css" rel="stylesheet" href="official/materialize.css" media="screen,projection" /> -->
+  <!-- Your customized version of materialize.css -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+ 
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="white">
+          <div class="container">
+              <div class="nav-wrapper">      
+                  <a href="#" class="brand-logo ">                                        
+                      <img  src="img/logo.png"  alt="logo">       
+                 </a>
+                  <a href="#" data-target="slide-out" class="sidenav-trigger">
+                      <i id="burger" class="blue-text large material-icons">menu</i>
+                  </a>
+                  <ul class="right hide-on-med-and-down">
+                      <li><a class="black-text " href="#home">Home</a></li>
+                      <li><a class="black-text "href="#activities">Activities</a></li>
+                      <li><a class="black-text" href="#aboutus">About Us</a></li>
+                      <li><a class="black-text" href="#contact">Contact</a></li>
+                      <li><a class="black-text" href="#sponsors">Sponsors</a></li>
+                      <li><a class="black-text" href="#projects">Projects</a></li>
+                      <li><a href="#sign" class="black-text ">Login</a></li>
+                      <li><a href="#sign" class="black-text">Register</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+  <ul class="sidenav" id="slide-out">
+      <li>
+          <div class="user-view">
+              <div class="background blue "></div>
+              <a href="#user"><img class="circle " src="img/user.jpg"></a>
+              <a href="#name"><span class="white-text name">Souhaib Benbouzid</span></a>
+              <a href="#email"><span class="white-text email">souhaib.code@gmail.com</span></a>
+          </div>
+      </li> 
+      <li><a href="#home">Home</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="#aboutus">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#signup">Login</a></li>
+      <li><a href="#signup">Logout</a></li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+      <ul class="slides">
+          <li>
+              <img src="img/1.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                  <h2 class="text-lighten-1">Experience, Develop, Share</h2>
+                  <h5 class="light grey-text text-lighten-1 hide-on-small-only">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam tempore labore nihil modi nesciunt quo.</h5>
+                  <button class="btn blue waves-effect waves-dark slides-btn " type="submit" name="action">Join
+                      <i class="material-icons right">play_arrow</i>
+                  </button>
+                  <button class="btn grey darken-3 waves-effect waves-dark slides-btn search_btn" type="submit" name="action">More
+                      <i class="material-icons right">search</i>
+                  </button>             
+              </div>
+          </li>
+          <li>
+              <img src="img/2.jpg"> <!-- random image -->
+              <div class="caption left-align">
+              <h2>We Work All Around The World</h2>
+              <h5 class="light grey-text text-lighten-1 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis quos amet esse voluptas! Iure!</h5>
+                  <button class="btn blue waves-effect waves-dark slides-btn" type="submit" name="action">Join
+                      <i class="material-icons right">play_arrow</i>
+                  </button>
+                  <button class="btn grey darken-3 waves-effect waves-dark slides-btn search_btn" type="submit" name="action">More
+                      <i class="material-icons right">search</i>
+                  </button>
+              </div>
+          </li>
+          <li>
+              <img src="img/3.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                  <h2>We Work with all Budgets</h2>
+                  <h5 class="light grey-text text-lighten-1 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iste accusamus. Magnam commodi illo voluptates.</h5>
+                      <button class="btn blue waves-effect waves-dark slides-btn search_btn" type="submit" name="action">Join
+                          <i class="material-icons right">play_arrow</i>
+                      </button>
+                      <button class="btn grey darken-3 waves-effect waves-dark slides-btn" type="submit" name="action">More
+                          <i class="material-icons right">search</i>
+                      </button>
+              </div>
+          </li>
+          <li>
+              <img src="img/4.jpg"> <!-- random image -->
+              <div class="caption center-align ">
+                  <h2>Visit The Best Places In The World</h2>
+                  <h5 class="light grey-text text-lighten-1 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab non deleniti ipsam libero rerum!</h5>
+                      <button class="btn blue waves-effect waves-dark slides-btn" type="submit" name="action">Join
+                          <i class="material-icons right">play_arrow</i>
+                      </button>
+                      <button class="btn grey darken-3 waves-effect waves-dark slides-btn search_btn" type="submit" name="action">More
+                          <i class="material-icons right">search</i>
+                      </button>
+              </div>
+          </li>
+      </ul>
+   </section>
+
+  <!-- Section: Card -->
+  <section class="card-sponsor">  
+       <div class="row">
+          <div class="container">
+              <div class="col s12 m12 l6">
+                  <div class="card-elevate card-panel z-depth-3 ">
+                      <h5 class=" blue-text">Latest News</h5>
+                      <div class="row">
+                          <div class="activity day">15</div>
+                          <div class="activity month-year"><div>DEC</div><div class="year">2020</div></div>
+                          <div class="activity article"><h6>WEB DEVELOPMENT</h6> <p>Lorem ipsum dolor sit amet.</p></div>
+                      </div>
+                      <div class="row">
+                          <div class="activity day">12</div>
+                          <div class="activity month-year"><div>DEC</div><div class="year">2019</div></div>
+                          <div class="activity article"><h6>MANAGEMENT MBA</h6> <p>Lorem ipsum dolor sit amet.</p></div>
+                      </div>
+                      <div class="row">
+                          <div class="activity day">01</div>
+                          <div class="activity month-year"><div>DEC</div><div class="year">2019</div></div>
+                          <div class="activity article"><h6>PUBLIC SPEAKING</h6> <p>Lorem ipsum dolor sit amet.</p></div>
+                      </div>
+                  </div> 
+              </div> 
+              <div class="col s12 m12 l6">
+                  <div class=" card-elevate card-elevate-2 card-panel z-depth-3 blue">
+                      <h5 class="center white-text">What We Do</h5>
+                      <div class="row">
+                          <div class="activity white-text information-wrapper"><h6>Galaxy Exploration</h6>
+                              <div class="white-text"><p>Lorem ipsum dolor sit orem ipsum dolor sit ameamet.</p></div>
+                          </div>
+                          <div class="activity white-text icon-wrapper"><a class="btn-floating  waves-effect waves-dark red"><i class="material-icons">more</i></a></div>
+                      </div>
+                      <div class="row">
+                          <div class="activity white-text information-wrapper"><h6>Master Calibration </h6>
+                              <div class=" white-text"><p>Lorem ipsum dolor sit orem ipsum dolor sit ameamet.</p></div>
+                          </div>
+                          <div class="activity white-text icon-wrapper"><a class="btn-floating  waves-effect waves-dark red"><i class="material-icons">more</i></a></div>
+                      </div>
+                      <div class="row">
+                          <div class="activity white-text information-wrapper"><h6>Peace Keeping</h6>
+                              <div class=" white-text"><p>Lorem ipsum dolor sitorem ipsum dolor sit ame amet.</p></div>
+                          </div>
+                          <div class="activity white-text icon-wrapper"><a class="btn-floating  waves-effect waves-dark red"><i class="material-icons">more</i></a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+      </div>
+      
+      <!-- sponsors -->
+      <div class="sponsors" id="scrollspy">
+          <div class="container">
+              <h3 class="center black-text"> <i class="material-icons blue-text">invert_colors</i>Our Sponsors</h3>
+          </div>
+          <div class="container sponsor-wrapper">
+              <a href="#"> <i class="material-icons medium">keyboard_arrow_left</i></a>
+              <div class="row">
+                  <div class="sponsor hide-on-small-only"> <img src="./img/icons/sponsors/2019-Sponsor-pepsi.png " alt="sponsor"></div>
+                  <div class="sponsor hide-on-med-and-down"> <img src="./img/icons/sponsors/oracle.png" alt="sponsor"></div>
+                  <div class="sponsor "> <img src="./img/icons/sponsors/redbull.png" alt="sponsor"></div>
+                  <div class="sponsor"> <img src="./img/icons/sponsors/hewlett-packard-logo-png-transparent.png" alt="sponsor"></div>
+              </div>
+              <a href="#"> <i class="material-icons medium">keyboard_arrow_right</i></a>
+              
+          </div>
+      </div>
+</section>
+ 
+  <!-- Section: Sponsors -->
+  <section class=" section-sponsor-info blue darken-1 white-text  scrollspy">
+      
+          <div class="row">
+              <div class="col m12 l4">
+                  <i class="material-icons">person_add</i>
+                  <h3 class="flow-text">Become A Sponsor</h3>            
+              </div>
+              <div class="col m12 l4">
+                  <i class="material-icons">room</i>
+                  <h3 class="flow-text">IGEE Ex: INELEC, Boumerdes </h3>            
+              </div>
+              <div class="col m12 l4">
+                  <i class="material-icons">phone</i>
+                  <h3 class="flow-text">+213 65 78 54 46</h3>            
+              </div>
+          </div>
+      
+  </section>
+  <!-- Section: Activities -->
+      
+  <section class="section section__activities scrollspy" id="activities">
+          <h3> Activities</h3>
+          <div class="grid">
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis ipsam, atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis ipsam, atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis ipsam, atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis ipsam, atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis ipsam, atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+                          
+                  <div class="activity-card">
+                      <div class="activity-card__image">
+                          <img src="img/projects/webdevelopment.png" alt="">
+                      </div>
+                      <div class="activity-card__information z-depth-4">
+                          <h2>Web Development</h2>
+                          <h3>instructor <span class="instructor-name" >Souhaib Benbouzid</span></h3>
+                          <h4>January 14th</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe. Illum dicta tempore nobis quis  atque sequi architecto delectus?lorem50</p>
+                          <div class="activity-btns">
+                          <a href="#" class="activity-btns__primary">Join Now</a>
+                          <a href="#" class="activity-btns__secondary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="activities-pages">
+              <h6 class="activities-pages-navigation grey-text lighten-2">PREV</h6>
+               <pre class="grey-text lighten-2">  1   2   3   ...   15   </pre>
+              <h6 class="activities-pages-navigation grey-text lighten-2">Next</h6>
+          </div>
+  </section>
+     
+
+
+
+  <!-- Footer -->
+  <footer class="section white-text center">
+      <!-- Section: Social Media -->
+      <section class="social-media blue">
+
+          <h5>Social Media</h5>
+          <div class="test">
+              <a href="https://www.facebook.com/profile.php?id=100019161573405" >
+                  <i class="fab fa-facebook">Inelectronics-Student-Club</i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100019161573405" >
+                  <i class="fab fa-twitter">Inelectronics_Student_Club</i>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100019161573405" >
+                  <i class="fab fa-instagram ">@Inelectronics_Student_Club</i>
+              </a>
+
+      </div>
+       
+      </section>
+
+      <section class="blue darken-2 email-list">
+          <h2>Enter Your Email to be Notified About Our Future Activities and Latest Updates</h2>
+          <div class="btns-wrapper">
+              <input type="email" placeholder="Enter Your Email Here !">
+              <a href="#" class="email-list-btn">Submit</a>
+          </div>
+      </section>
+      <!-- footer:bottom -->
+      <section class="footer white-text">
+          <div class="container">
+              <div class="grid " id="footer-grid">
+                  <div class="cell">
+                      <h5>About Us</h5>
+                      <a href="#">Our Team</a>
+                      <a href="#">Gallery</a>
+                      <a href="#">Workplace</a>
+                      <a href="#">Our Motivations</a>
+                  </div>
+                  <div class="cell">
+                      <h5>Projects</h5>
+                      <a href="#">Youth Algeria</a>
+                      <a href="#">Algeria 2.0</a>
+                      <a href="#">Better World</a>
+                      <a href="#">SoftwareMonks</a>
+                  </div>
+          
+                  <div class="cell">
+                      <h5>Contact Us</h5>
+                      <a href="#">+213 24 25 12 13</a>
+                      <a href="#">IGEE ex INELEC</a>
+                      <a href="#">Boumerdes, Algeria</a>
+                  </div>
+              </div>
+              <div class="copywrite">
+                  <h4>Powered By <span>SOFTWAREMONKS</span></h4>
+                  <h4> &#9400; Copywright Righits Reserved  2019</h4>
+              </div>
+          </div>    
+      </section>
+
+  </footer>
+    <script src="https://kit.fontawesome.com/edc9c0da99.js" crossorigin="anonymous"></script>
+  <!-- The official version of materialize.js for testing purposes -->
+  <!-- <script type="text/javascript" src="official/materialize.js"></script> -->
+  <!-- Your customized version of materialize.css -->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    M.AutoInit();
+  </script>
+</body>
+
+</html>

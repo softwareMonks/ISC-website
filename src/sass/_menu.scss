@@ -1,0 +1,35 @@
+
+.nav-wrapper {
+  
+    img{
+        margin-top: 11px;
+        width: 100px;
+        height: 40px;
+    }
+    a {
+        padding-right: 0.2rem !important ;
+     }
+}
+
+#burger{
+    font-size: 3rem ;
+}
+.sidenav {
+    li {
+        line-height: 24px;
+    }
+}
+
+.slides {
+    img {
+        filter: brightness(60%);
+    }
+    
+    button  {
+        margin:2rem 1rem 0 0  ;
+    }
+    .search_btn {
+        display: inline;
+    }
+}
+
