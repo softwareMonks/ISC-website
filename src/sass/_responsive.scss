@@ -21,7 +21,12 @@
             grid-template-columns: 1fr 1fr ;
         }
     }
-
+    .section-contact .row {
+        position: relative;
+        z-index: 2;
+        top: -200px;
+        width: 80%;
+    }
     
     footer {
         .copywrite {
@@ -44,6 +49,15 @@
         .grid {
             grid-template-columns: 1fr 1fr 1fr ;
         }   
+    }
+  
+ 
+    .section-contact .row .left-card .item{
+        text-align: left !important;
+        
+        i {
+            font-size: 3.7rem;
+        }
     }
        
     footer {

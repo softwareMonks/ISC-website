@@ -1,0 +1,57 @@
+.section-contact {
+    width: 100%;
+    margin-bottom: 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .image-container {
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            filter: brightness(50%);
+        }
+      }
+   
+    .row {
+        
+        .card-panel{
+            padding: 2.5rem 2rem;
+        }
+
+        button {
+            margin: 3rem 0;
+        }
+        .right-form {
+            h5 {
+                padding: 2rem;
+            }
+        }
+
+        .card-panel {
+            margin: 0;
+        }
+
+        .left-card{
+            padding: 4rem;
+            
+            .item {
+                padding: 1rem 2rem;
+                text-align: center;
+                
+                h6 {
+                    font-size: 1rem;
+                }
+            }
+            
+
+        }
+
+        .col{
+            padding: 0;
+        }
+    }
+}
