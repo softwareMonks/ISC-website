@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    
     h2 {
         font-size: 1.2rem;
         padding-bottom: 1rem;
@@ -30,6 +31,7 @@
             background: $dark-background-color;
             padding: 1rem 3rem;
             margin-top: 1rem;
+            width: 40%;
         }
 
         input {
